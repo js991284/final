@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page - Your Resort Name</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://use.typekit.net/btl8lcx.css">
+    <link rel="stylesheet" href="https://use.typekit.net/btl8lcx.css">
+</head>
+<body>
+    <header>
+        <section id="hero">
+                <h1>Silver Peak</h1>
+                <h2>SKI & RESORT</h2>
+        
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Accommodations</a></li> <!-- Placeholder link -->
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        </section>
+    </header>
+
+    <main class="grid-container">
+        <section id="info">
+            <h2>Contact Us</h2>
+            <p>Please reach out to us with any questions or concerns. We are happy to help you plan your dream vacation with us!</p>
+        <img src="images/swiss-sunset.jpg" alt="Sunset over the Swiss Alps" />
+        </section>
+        
+        <section id="contact">
+            
+            <form>
+            <label for="full-name">Full Name *</label>
+            <input type="text" id="full-name" name="full-name" required>
+    
+            <label for="email">Email Address *</label>
+            <input type="email" id="email" name="email" required>
+    
+            <label for="phone">Phone Number *</label>
+            <input type="tel" id="phone" name="phone" required>
+    
+            <fieldset> 
+               <legend>Preferred Contact Method</legend> 
+                
+               <input type="radio" name="contact-pref" id="pref-email">
+               <label for="pref-email">Email</label>
+
+               <input type="radio" name="contact-pref" id="pref-phone">
+               <label for="pref-phone">Phone</label>
+            </fieldset>
+    
+            <label for="comments">Comments *</label>
+            <textarea id="comments" name="comments" required></textarea>
+    
+            <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>Copyright ©2023 - Silver Peak</p>
+        <p>This site is for educational purposes only</p>
+    </footer>
+</body>
+</html>
